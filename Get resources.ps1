@@ -16,7 +16,7 @@ Select-AzSubscription -SubscriptionId XXX
 
 #Exports resources in set format ready for import
 
-Get-AzResource  | Select-Object -Property Name,ResourceGroupName,Location,Type | Export-CSV C:\temp\azure-resources2.csv
+Get-AzResource  | Select-Object -Property Name,ResourceGroupName,Location,Type | Export-CSV C:\temp\azure-resources.csv
 
 #disconnects Account
 
